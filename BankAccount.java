@@ -20,14 +20,12 @@ public class BankAccount {
     }
     public void deposit(double amount) {
         if (amount>0){
-            this.balance += amount;
             balance += amount;
             System.out.println("Deposited: " + amount);
         }
     }
     public void withdraw(double amount) {
         if (amount > 0 && amount <= balance){
-            this.balance -= amount;
             balance -= amount;
             System.out.println("withdraw:"+amount);
         }else {

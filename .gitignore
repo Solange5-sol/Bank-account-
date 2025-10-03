@@ -1,0 +1,27 @@
+# IntelliJ IDEA project files
+.idea/
+.idea/scratches/
+.idea/shelf/
+*.iml
+
+# External libraries (common folder names)
+libs/
+lib/
+external/
+
+# Build output folders
+out/
+build/
+target/
+
+# Compiled Java class files
+*.class
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS system files
+.DS_Store
+Thumbs.db

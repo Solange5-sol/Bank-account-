@@ -1,5 +1,4 @@
 public class CheckingAccoun extends BankAccount {
-    private double overdraftLimit=1000;
     public CheckingAccoun(String accountNumber, double balance) {
         super(accountNumber, balance);
     }

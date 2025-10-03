@@ -1,5 +1,5 @@
 public class SavingsAccount extends BankAccount {
-    private double interests = 0.03;
+    private double interests = 0.50;
     public SavingsAccount(String accountNumber, double balance) {
         super(accountNumber, balance);
     }

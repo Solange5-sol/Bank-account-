@@ -2,6 +2,7 @@ import java.security.PublicKey;
 public class BankAccount {
     private double balance;
     private String accountNumber;
+    private double overdraftLimit = 1000;
     public BankAccount(String accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -17,6 +18,12 @@ public class BankAccount {
     }
     public void setAccountNumber(String accountNumber){
         this.accountNumber = accountNumber;
+    }
+    public double getOverdraftLimit() {
+        return overdraftLimit;
+    }
+    public void setOverdraftLimit(double overdraftLimit) {
+        this.overdraftLimit = overdraftLimit;
     }
     public void deposit(double amount) {
         if (amount>0){
